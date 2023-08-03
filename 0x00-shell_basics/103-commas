@@ -1,2 +1,2 @@
 #!/bin/bash
-(printf ".\n.." ; ls -a1 | grep -E '^[0-9a-zA-Z]' | sort -n -k1.1,1.1 -k1.2 | sed -e 's/$/\//' | tr '\n' ',') && echo
+ls -map
