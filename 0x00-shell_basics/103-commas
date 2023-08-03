@@ -1,0 +1,3 @@
+#!/bin/bash
+ls -la | awk '{if ($9 == "." || $9 == "..") print $9 ","; else if (substr($9,1,1) ~ /[0-9a-zA-Z]/) {if ($1 ~ /^d/) print $9 "/,"; else print $9 ","}}' | sort -n -k1.1,1.1 -k1.2
+
