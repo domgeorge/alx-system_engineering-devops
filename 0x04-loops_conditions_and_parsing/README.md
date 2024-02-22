@@ -18,4 +18,3 @@ Shellcheck is a tool that will help you write proper Bash scripts. It will make 
 `Shellcheck` is available on the school’s computers. If you want to use it on your own computer, here is how to [install it](https://github.com/koalaman/shellcheck#installing "Title")
 
 By `Obinna Dominic`
-
